@@ -2,15 +2,15 @@
 * { padding: 0; margin: 0; }
 
 body {
- font-family: Arial, Helvetica, sans-serif;
+ font-family: 'Arial', 'Helvetica', 'Sans-Serif';
  font-size: 13px;
 }
-#wrapper { 
+wrapper { 
  margin: 0 auto;
  width: 922px;
 }
 
-#navigation {
+nav ul {
 float: left;
  width: 900px;
  color: #333;
@@ -19,7 +19,7 @@ float: left;
  margin: 0px 0px 0px 0px;
  background-color:#F3F2ED;
 }
-#leftcolumn { 
+leftcolumn { 
  color: #333;
  border: 1px solid #ccc;
  background: transparent;
@@ -29,7 +29,7 @@ float: left;
  width: 200px;
  float: left;
 }
-#content { 
+content { 
  float: left;
  color: #333;
  border: 1px solid #ccc;
@@ -40,7 +40,7 @@ float: left;
  width: 456px;
  display: inline;
 }
-#rightcolumn { 
+rightcolumn { 
  color: #333;
  border: 1px solid #ccc;
  background:#35648C;
@@ -50,7 +50,7 @@ float: left;
  width: 200px;
  float: left;
 }
-#footer { 
+footer ul { 
  width: 900px;
  clear: both;
  color: #333;
@@ -58,4 +58,30 @@ float: left;
  background-color:#3D4F2F;
  margin: 0px 0px 10px 0px;
  padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
 }
