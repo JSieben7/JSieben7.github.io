@@ -45,9 +45,9 @@ footer {
     border-top: 2px solid #44456c;
     font-size: .8em;
     bottom:0;
-    position:fixed;
-    z-index:150;
-    position:absolute;
+    position:relative;
+    bottom: 100px;
+    /*position:absolute;*/
     top:expression(eval(document.documentElement.scrollTop+
         (document.documentElement.clientHeight-this.offsetHeight)));
     /*height:35px;*/
