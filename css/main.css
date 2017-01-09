@@ -2,6 +2,10 @@ body {
     margin: 60px auto;
     width: 70%;
     background: #878c80;
+    /*text-align: center;*/
+    background: url("https://upload.wikimedia.org/wikipedia/commons/a/a2/Polycyclic_Aromatic_Hydrocarbons_In_Space.jpg");
+    background-size: cover;
+    background-position: center;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
