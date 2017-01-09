@@ -10,6 +10,11 @@ body {
 background {
  opacity: .7;   
 }
+/*profileim {
+    url("http://i.imgur.com/qNSXk88.jpg");
+    profileim-size: 100px;
+    profileim-position: right;
+}*/
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
