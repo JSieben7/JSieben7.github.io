@@ -5,7 +5,7 @@
 
 body {
   font-family: Baskerville, Book Antigua, serif;
-  font-size: 13px;
+  font-size: 16px;
   /*background: url("https://apod.nasa.gov/apod/image/1712/JackFusco_JasperGeminids.jpg");*/
   background:  url("/SAM_2674.JPG");
   background-size: cover;
@@ -22,12 +22,14 @@ body {
 
 #wrapper {
   margin: 0 auto;
-  width: 922px;
+  /*width: 922px;*/
+  width: 80%;
   /*opacity: .6;*/
 }
 
 #header {
-  width: 900px;
+  /*width: 900px;*/
+  width: 100%;
   float: left;
   padding: 10px;
   border: 0px solid #ccc;
@@ -67,7 +69,8 @@ body {
   margin: 0px 5px 5px 0px;
   padding: 10px;
   height: 350px;
-  width: 681px;
+  /*width: 681px;*/
+  width: 75%;
   display: inline;
 }
 
@@ -77,8 +80,9 @@ body {
   margin: 0px 0px 5px 0px;
   padding: 10px;
   height: 350px;
-  width: 195px;
-  float: left;
+  /*width: 195px;*/
+  width: 20%;
+  float: right;
 }
 
 
@@ -95,8 +99,10 @@ padding-left: 30px;
 padding-top: 3px;
 }
 
+
 #footer {
-  width: 900px;
+  /*width: 900px;*/
+  width: 100%;
   clear: both;
   border: 0px solid #ccc;
   background-color: #F3F2ED60;
