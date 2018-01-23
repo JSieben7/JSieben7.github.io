@@ -6,7 +6,9 @@
 body {
   font-family: Baskerville, Book Antigua, serif;
   font-size: 13px;
-  background: url("https://apod.nasa.gov/apod/image/1712/JackFusco_JasperGeminids.jpg");
+  /*background: url("https://apod.nasa.gov/apod/image/1712/JackFusco_JasperGeminids.jpg");*/
+  background:  url("/SAM_2674.JPG");
+  background-size: cover;
 }
 
 #profile img {
