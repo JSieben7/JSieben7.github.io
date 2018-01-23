@@ -50,7 +50,7 @@ body {
   padding: 0px 10px 0px 10px;
 }
 
-#leftcolumn {
+/*#leftcolumn {
   border: 0px solid #ccc;
   background: #F3F2ED99;
   margin: 0px 5px 5px 0px;
@@ -58,7 +58,7 @@ body {
   height: 350px;
   width: 195px;
   float: left;
-}
+}*/
 
 #content {
   float: left;
@@ -67,7 +67,7 @@ body {
   margin: 0px 5px 5px 0px;
   padding: 10px;
   height: 350px;
-  width: 456px;
+  width: 681px;
   display: inline;
 }
 
