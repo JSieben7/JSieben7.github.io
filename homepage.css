@@ -74,6 +74,10 @@ body {
   display: inline;
 }
 
+#content p {
+  padding: 5px;
+}
+
 #rightcolumn {
   border: 0px solid #ccc;
   background: #F3F2ED99;
