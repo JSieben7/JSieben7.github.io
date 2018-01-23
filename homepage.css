@@ -43,7 +43,7 @@ body {
 #header h1 {
   font-size: 50px;
   font-family: georgia, serif;
-  color: blue;
+  color: #afd1fd;
 }
 
 #header li {
@@ -108,4 +108,9 @@ padding-top: 3px;
   background-color: #F3F2ED60;
   margin: 0px 0px 10px 0px;
   padding: 10px;
+}
+
+
+#footer p{
+  color: #cdd2d2;
 }
