@@ -1,7 +1,7 @@
 ﻿.parallax {
     /* The image used */
-    background-image: url('https://photofiles.alphacoders.com/216/21693.jpg');
-    /*background-image: url('../images/Sunset_CTIO.jpg')*/
+    /*background-image: url('https://photofiles.alphacoders.com/216/21693.jpg');*/
+    background-image: url('../images/SAM_2674.JPG')
 
     /* Full height */
     height: 100%; 
@@ -18,8 +18,6 @@
 }
 
 body {
-    /*background-image: url('https://photofiles.alphacoders.com/216/21693.jpg');
-    background-size: cover;*/
     font-family: Helvetica, sans-serif;
 }
 
@@ -58,7 +56,7 @@ body {
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #004cf2;
+    border: 4px solid #802b52;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -164,7 +162,7 @@ body {
 #navbar a {
   float: left;
   display: block;
-  color: blue;
+  color: #1d0f39;
   text-align: center;
   padding: 14px;
   text-decoration: none;

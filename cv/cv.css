@@ -26,7 +26,7 @@
 }
 
 .bgimg-3 {
-  background-image: url("https://www.99inspiration.com/wp-content/uploads/2015/09/Cool-self-portrait-photography-by-Amy-Haslehurst.jpg");
+  background-image: url(../images/SAM_2674.JPG);
   min-height: 400px;
 }
 
@@ -59,7 +59,7 @@
 
 
 .caption span.border {
-  background-color: #004cf2;
+  background-color: #a23758; /*#004cf2;*/
   color: #fff;
   padding: 18px;
   font-size: 25px;
@@ -91,7 +91,7 @@ h3 {
 }*/
 
 .boxes {
-	color: #777;
+  color: #777;
   background-color: white;
   text-align: center;
   padding: 40px 80px;
@@ -110,7 +110,7 @@ a:link, a:visited {
 
 a:hover, a:active {
     background-color: #fff;
-    color: #004cf2;
+    color: #a23758;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
