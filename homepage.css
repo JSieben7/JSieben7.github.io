@@ -30,7 +30,7 @@ body {
   float: left;
   padding: 10px;
   border: 0px solid #ccc;
-  height: 100px;
+  /*height: 100px;*/
   margin: 10px 0px 5px 0px;
   background-color: #F3F2ED60;
   text-align: center;
@@ -103,7 +103,6 @@ padding-top: 3px;
 
 
 #footer {
-  /*width: 900px;*/
   width: 100%;
   clear: both;
   border: 0px solid #ccc;
