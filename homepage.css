@@ -50,6 +50,15 @@ body {
   padding: 0px 10px 0px 10px;
 }
 
+a:link, a:visited {
+    color: #567cf2;
+}
+
+
+a:hover, a:active {
+    color: #a23758;
+}
+
 /*#leftcolumn {
   border: 0px solid #ccc;
   background: #F3F2ED99;
