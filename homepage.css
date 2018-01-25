@@ -7,7 +7,7 @@ body {
   font-family: Baskerville, Book Antigua, serif;
   font-size: 16px;
   /*background: url("https://i.imgur.com/UUlamqB.jpg");*/
-  background: url("images/Sunset2_CTIO.JPG");
+  background: url("/Sunset2_CTIO.JPG");
   background-size: cover;
 }
 
