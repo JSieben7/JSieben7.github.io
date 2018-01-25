@@ -22,13 +22,10 @@ body {
 
 #wrapper {
   margin: 0 auto;
-  /*width: 922px;*/
   width: 80%;
-  /*opacity: .6;*/
 }
 
 #header {
-  /*width: 900px;*/
   width: 100%;
   float: left;
   padding: 10px;
@@ -116,5 +113,5 @@ padding-top: 3px;
 
 
 #footer p{
-  color: #cdd2d2;
+  color: black;
 }
