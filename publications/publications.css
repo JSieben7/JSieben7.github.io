@@ -1,0 +1,126 @@
+﻿* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Baskerville, Book Antigua, serif;
+  font-size: 16px;
+  /*background: url("https://i.imgur.com/UUlamqB.jpg");*/
+  background: url("/images/Sunset2_CTIO.JPG");
+  background-size: cover;
+}
+
+#profile img {
+  display: block;
+  margin: 0px 5px 10px 50px;
+  float: right;
+  border: 3px solid #802b52;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#header {
+  width: 100%;
+  float: left;
+  padding: 10px;
+  border: 0px solid #ccc;
+  /*height: 100px;*/
+  margin: 10px 0px 5px 0px;
+  background-color: #F3F2ED60;
+  text-align: center;
+  font-size: 20px;
+  color: #a23758;
+}
+
+#header h1 {
+  font-size: 50px;
+  font-family: Palatino Linotype, serif;
+  color: #fac69b;
+}
+
+#header li {
+  font-size: 15px;
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+a:link, a:visited {
+    color: #567cf2;
+}
+
+
+a:hover, a:active {
+    color: #3981bf;
+}
+
+/*#leftcolumn {
+  border: 0px solid #ccc;
+  background: #F3F2ED99;
+  margin: 0px 5px 5px 0px;
+  padding: 10px;
+  height: 350px;
+  width: 195px;
+  float: left;
+}*/
+
+#content {
+  float: left;
+  border: 0px solid #ccc;
+  background: #F3F2ED99;
+  margin: 0px 5px 5px 0px;
+  padding: 10px;
+  height: 90%;
+  /*width: 681px;*/
+  width: 75%;
+  display: inline;
+}
+
+#content p {
+  padding: 5px;
+}
+
+#rightcolumn {
+  border: 0px solid #ccc;
+  background: #F3F2ED99;
+  margin: 0px 0px 5px 0px;
+  padding: 10px;
+  height: 90%;
+  /*width: 195px;*/
+  width: 20%;
+  float: right;
+}
+
+
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+li.star {
+background: url('http://pluspng.com/img-png/novice-png-talk-bubble-novice-png-622.png') no-repeat left top;
+background-size: 10%;
+height: 20px;
+padding-left: 30px;
+padding-top: 3px;
+}
+
+
+#footer {
+  width: 100%;
+  clear: both;
+  border: 0px solid #ccc;
+  background-color: #F3F2ED60;
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+}
+
+
+#footer p{
+  color: #1d0f39;
+}
