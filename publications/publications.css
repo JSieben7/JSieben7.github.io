@@ -51,12 +51,16 @@ body {
 }
 
 a:link, a:visited {
-    color: #567cf2;
+    color: #1d0f39;
 }
 
 
 a:hover, a:active {
-    color: #3981bf;
+    color: #802b52;
+}
+
+h3 {
+   padding: 10px;
 }
 
 /*#leftcolumn {
