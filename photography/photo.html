@@ -3,22 +3,30 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="photography.css" />
-<!--<script src="myscripts.js"></script>-->
+<!--<script src="photography.js"></script>-->
 <title>
 	Photography
 </title>
 <body>
 
+<div id="navbar">
+      <a href="../">Home</a>
+      <a href="../research/">Research</a>
+      <a href="../cv/">CV</a>
+      <a href="../publications/">Publications</a>
+      <a href="../photography/">Photography</a>
+      <a href="../links/">Links</a>
+</div>
 <!-- Header -->
 <div class="header">
   <h1>Photography</h1>
   <p>I kinda like taking pictures. Click for an expanded view.</p>
 </div>
 
-<!-- Photo Grid -->
+<!-- Photo Grid, left to right -->
 <div class="row"> 
   <div class="column">
-    <img src="https://i.imgur.com/UUlamqB.jpg" style="width:100%">
+  <a target="_blank" href="https://i.imgur.com/UUlamqB.jpg"><img src="https://i.imgur.com/UUlamqB.jpg" alt="Sunset" style="width:100%"></a>
     <img src="https://i.imgur.com/BfdQRmG.jpg" style="width:100%">
     <img src="https://i.imgur.com/VVtUrKZ.jpg" style="width:100%">
     <img src="https://i.imgur.com/xIgwLon.jpg" style="width:100%">
@@ -27,7 +35,7 @@
     <img src="https://i.imgur.com/8rCcRMx.jpg" style="width:100%">
   </div>
   <div class="column">
-    <img src="https://i.imgur.com/Ix9ImSG.jpg" style="width:100%">
+    <img id="myImg" src="https://i.imgur.com/Ix9ImSG.jpg" alt="To New Beginnings" style="width:100%">
     <img src="https://i.imgur.com/oMH0pr8.jpg" style="width:100%">
     <img src="https://i.imgur.com/YkG40W4.jpg" style="width:100%">
     <img src="https://i.imgur.com/ZFlOjc5.jpg" style="width:100%">
@@ -52,6 +60,11 @@
     <img src="https://i.imgur.com/Ad6fomw.jpg" style="width:100%">
   </div>
 </div>
-
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 </body>
 </html>
