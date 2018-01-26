@@ -59,6 +59,10 @@ a:hover, a:active {
     color: #802b52;
 }
 
+h3 {
+   padding: 10px;
+}
+
 /*#leftcolumn {
   border: 0px solid #ccc;
   background: #F3F2ED99;
