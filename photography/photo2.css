@@ -38,3 +38,19 @@ div.gallery img {
     display: table;
     clear: both;
 }
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #a23758;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
