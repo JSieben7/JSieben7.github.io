@@ -1,4 +1,9 @@
-﻿div.gallery:hover {
+﻿body {
+    background: #c4cbce; /* For browsers that do not support gradients */
+    background: linear-gradient(0deg, #2c734a, #c4cbce); /* Standard syntax (must be last) */
+}
+
+div.gallery:hover {
    opacity: 0.6;
    transition: .5s ease;
 }
