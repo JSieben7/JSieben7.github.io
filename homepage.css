@@ -129,6 +129,7 @@ padding-top: 3px;
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 	body {
+        background: url();
         background-color: lightblue;
     }
 }
