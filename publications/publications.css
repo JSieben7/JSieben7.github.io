@@ -17,6 +17,7 @@ font-family: Baskerville, Book Antigua, serif;
     font-size: 20px;
     color: #e9695b;
     text-align: center;
+    background-color: #ff8c63; /*fallback*/
     background-color: #F3F2ED60;
 }
 
@@ -45,8 +46,8 @@ a:hover, a:active {
 .content {   
     float: left;
     width: 100%;
+    background-color: #ff8c63; /*fallback*/
     background-color: #F3F2ED99;
-    filter: alpha(opacity=60); /*for IE*/
     padding: 20px;
     margin-top: 20px;
 }
@@ -75,6 +76,7 @@ a:hover, a:active {
 .footer {
     padding: 5px;
     text-align: center;
+    background-color: #ff8c63; /*fallback*/
     background: #F3F2ED60;
     margin-top: 20px;
     color: #1d0f39;
