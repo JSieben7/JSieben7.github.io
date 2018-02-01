@@ -74,14 +74,14 @@ h3 {
 }*/
 
 #content {
-  float: left;
+  float: center;
   border: 0px solid #ccc;
   background: #F3F2ED99;
   margin: 0px 5px 5px 0px;
   padding: 10px;
   height: 90%;
   /*width: 681px;*/
-  width: 75%;
+  width: 100%;
   display: inline;
 }
 
