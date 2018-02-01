@@ -125,3 +125,8 @@ padding-top: 3px;
 #footer p{
   color: #1d0f39;
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.header, .content, .footer  { background-color: #F3F2ED;
+                    filter: alpha(opacity=60);}
+}
