@@ -128,12 +128,8 @@ padding-top: 3px;
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	#header, #content, #footer  { background-color: #F3F2ED;
-                    filter: alpha(opacity=60);}
-}
-
-@media only screen and (orientation: landscape) {
-    body {
+	body {
         background-color: lightblue;
     }
 }
+
