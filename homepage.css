@@ -73,6 +73,7 @@ a:hover, a:active {
   float: left;
   border: 0px solid #ccc;
   background: #F3F2ED99;
+  filter: alpha(opacity=60); /*for IE*/
   margin: 0px 5px 5px 0px;
   padding: 10px;
   height: 90%;
