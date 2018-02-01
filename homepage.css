@@ -73,7 +73,8 @@ a:hover, a:active {
   float: left;
   border: 0px solid #ccc;
   background: #F3F2ED99;
-  filter: alpha(opacity=60); /*for IE*/
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4cffffff', endColorstr='#4cffffff'); /* IE */
+ /* filter: alpha(opacity=60);*/ /*for IE*/
   margin: 0px 5px 5px 0px;
   padding: 10px;
   height: 90%;
@@ -126,7 +127,7 @@ padding-top: 3px;
   color: #1d0f39;
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+/*@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 	.header, .content, .footer  { background-color: #F3F2ED;
-                    filter: alpha(opacity=60);}
+                    filter: alpha(opacity=60);}*/
 }
