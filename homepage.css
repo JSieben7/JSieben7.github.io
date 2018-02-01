@@ -67,7 +67,7 @@ a:hover, a:active {
 }*/
 
 #content {
-  float: left;
+  float: center;
   border: 0px solid #ccc;
   background: #F3F2ED99;
   filter: alpha(opacity=60);  /* For IE8 and earlier */
