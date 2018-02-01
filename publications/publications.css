@@ -6,8 +6,8 @@
 body {
 font-family: Baskerville, Book Antigua, serif;
   font-size: 16px;
-  background: url("https://i.imgur.com/UUlamqB.jpg");
-  /*background: url("/images/Sunset2_CTIO.JPG");*/
+  /*background: url("https://i.imgur.com/UUlamqB.jpg");*/
+  background: url("/images/Sunset2_CTIO.JPG");
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@ font-family: Baskerville, Book Antigua, serif;
 .header h1 {
   font-size: 50px;
   font-family: Palatino Linotype, serif;
-  color: #fac69b;
+  color: #000000;
 }
 
 .header li {
