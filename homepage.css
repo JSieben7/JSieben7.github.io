@@ -17,9 +17,9 @@ font-family: Baskerville, Book Antigua, serif;
     font-size: 20px;
     color: #e9695b;
     text-align: center;
-    background-color: #F3F2ED60;
     background-color: #F3F2ED; /*fallback*/
-}
+    background-color: #F3F2ED60;
+    }
 
 .header h1 {
   font-size: 50px;
@@ -87,10 +87,10 @@ a:hover, a:active {
         width: 100%;
         padding: 0;
     }
-}
+/*}
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 	body {
         background: url();
         background-color: lightblue;
     }
-}
+}*/
