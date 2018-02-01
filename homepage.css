@@ -15,7 +15,7 @@ font-family: Baskerville, Book Antigua, serif;
 .header {
     padding: 10px;
     font-size: 20px;
-    color: #5ca2f2;
+    color: #000000;
     text-align: center;
     background-color: #ff8c63; 
     filter: Alpha(opacity=60); /*fallback*/
