@@ -85,7 +85,7 @@ a:hover, a:active {
   padding: 5px;
 }
 
-#rightcolumn {
+/*#rightcolumn {
   border: 0px solid #ccc;
   background: #F3F2ED99;
   margin: 0px 0px 5px 0px;
@@ -94,7 +94,7 @@ a:hover, a:active {
   /*width: 195px;*/
   width: 20%;
   float: right;
-}
+}*/
 
 
 ul.no_bullet {
