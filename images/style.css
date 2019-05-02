@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700');
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700');
 
 body {
     color: #191919;
@@ -561,23 +561,29 @@ a:hover, a:active {
     font-family: 'Poppins', sans-serif;
 }
 
+.single-portfolio .entry-meta a {
+    color: #bfbfbf;
+}
+
 .single-portfolio .entry-meta label {
     display: block;
     line-height: 1.3;
     text-transform: uppercase;
+    color: #af1d4e;
 }
 
 .single-portfolio .date-format,
 .single-portfolio .post-category,
+.single-portfolio .post-category a,
+.single-portfolio .posted-tags span,
 .single-portfolio .posted-tags {
     display: block;
     margin-bottom: 26px;
+    color: #6bc8db;
 }
 
-.single-portfolio .posted-tags span,
-.single-portfolio .entry-meta a {
-    color: #bfbfbf;
-}
+
+
 
 /*
 # Post Nav
@@ -821,7 +827,7 @@ a:hover, a:active {
     color: #bfbfbf;
 }
 
-.single-post .entry-header .byline .author a,
+.single-post .entry-header .byline .author,
 .single-page .entry-header .byline .author a {
     color: #191919;
 }
@@ -999,21 +1005,26 @@ a:hover, a:active {
     display: block;
     line-height: 1.3;
     text-transform: uppercase;
+    color: #af1d4e;
 }
 
-.single-post .date-format,
-.single-post .post-category,
+
 .single-post .posted-tags {
     display: block;
     margin-bottom: 26px;
+    color: #af1d4e;
 }
-
+.single-post .date-format,
+.single-post .post-category,
 .single-post .posted-tags span,
 .single-post .entry-meta a {
-    color: #bfbfbf;
+    color: #6bc8db;
+    margin-bottom: 26px;
+    display: block;	
 }
 
-.single-post .post-share label {
+.single-post .post-share label 
+.single-post .camera{
     text-transform: capitalize;
 }
 
