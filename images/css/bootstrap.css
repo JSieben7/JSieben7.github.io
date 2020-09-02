@@ -70,6 +70,10 @@
     orphans: 3;
     widows: 3;
   }
+  h3.a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
   h2,
   h3 {
     page-break-after: avoid;
