@@ -14,6 +14,8 @@ font-family: Baskerville, Book Antigua, serif;
 /* Header */
 .header {
     padding: 10px;
+    width: 80%;
+    margin-left: 10%;
     font-size: 20px;
     color: #000000;
     text-align: center;
@@ -45,12 +47,13 @@ a:hover, a:active {
 
 /* content */
 .content {   
-    float: left;
-    width: 100%;
+    float: none;
+    width: 80%;
     background-color: #ff8c63; /*fallback*/
     background-color: #F3F2ED99;
     padding: 20px;
     margin-top: 20px;
+    margin-left: 10%;
 }
 
 /*profile image*/
@@ -76,6 +79,8 @@ a:hover, a:active {
 /* Footer */
 .footer {
     padding: 5px;
+    width: 80%;
+    margin-left: 10%;
     text-align: center;
     background-color: #ff8c63; /*fallback*/
     background: #F3F2ED60;
