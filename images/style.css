@@ -345,6 +345,12 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#SubCatCap {
+    font-family: 'Didot', serif;
+    font-style: oblique;
+    padding-bottom: 20px;
+}
+
 .portfolio-page .scroll-down {
     margin-left: -60px;
 }
