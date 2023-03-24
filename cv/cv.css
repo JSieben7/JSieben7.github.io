@@ -1,33 +1,77 @@
-﻿body, html {
+﻿body,
+html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
 
-/*backgrounds*/
-.bgimg-1, .bgimg-2, .bgimg-3 {
+/* backgrounds */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
   position: relative;
-  opacity: 1; /*0.65*/
+  opacity: 1;
+  /* 0.65 */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
+
 .bgimg-1 {
-  background-image: url('../images/images/CTIO_domes.JPG');
-  min-height: 100%;
+  background-image: url(../images/images/neowise_close.jpg);
+  min-height: 400px;
 }
 
 .bgimg-2 {
-  background-image: url('../images/images/Milky_Way_picture.jpg');
+  background-image: url(../images/images/Milky_Way_picture.jpg);
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url(../images/images/SAM_2674.JPG);
+  background-image: url(../images/images/India/Moon_India.jpg);
   min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url(../images/images/Hawaii/DSC01788.jpg);
+  min-height: 400px;
+}
+
+/* images 
+background-image: url(../images/images/neowise_close.jpg);
+background-image: url(../images/images/Milky_Way_picture.jpg);
+background-image: url(../images/images/India/Moon_India.jpg);
+background-image: url(../images/images/Hawaii/DSC01788.jpg);
+*/
+
+a:link,
+a:visited {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+a:hover,
+a:active {
+  background-color: #fff;
+  color: #a23758;
+}
+
+.boxes a {
+  color: #a23758;
+}
+
+.boxes a:hover,
+.boxes a:active {
+  color: blue;
 }
 
 /* Style the navbar */
@@ -40,14 +84,23 @@
 #navbar a {
   float: left;
   display: block;
-  color: blue;
+  color: #a23758;
   text-align: center;
   padding: 14px;
   text-decoration: none;
 }
 
 
-/*box sections*/
+#navbar a:hover {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* box sections */
 .caption {
   position: absolute;
   left: 0;
@@ -59,7 +112,7 @@
 
 
 .caption span.border {
-  background-color: #a23758; /*#004cf2;*/
+  background-color: #a23758;
   color: #fff;
   padding: 18px;
   font-size: 25px;
@@ -75,47 +128,30 @@ h3 {
   text-align: center;
 }
 
-/* Create two equal columns that floats next to each other */
-/*.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    
-}*/
+h4 {
+  text-transform: none;
+  font: 20px "Lato", serif;
+  font-weight: bold;
+  color: #111;
+}
 
-/* Clear floats after the columns */
-/*.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}*/
 
 .boxes {
   color: #777;
   background-color: white;
-  text-align: center;
   padding: 40px 80px;
   text-align: justify;
 }
 
-a:link, a:visited {
-    background-color: transparent;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
 
-
-a:hover, a:active {
-    background-color: #fff;
-    color: #a23758;
-}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-    }
+
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3,
+  .bgimg-4 {
+    background-attachment: scroll;
+  }
 }
