@@ -3,7 +3,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="PT.css" />
-  <script src="PTscripts.js"></script>
   <title>
     Physics Today Writings
   </title>
@@ -74,6 +73,18 @@
 <div class="footer">
   <p>Last modified: April 2023, Jennifer Sieben &emsp; Image credit: Jennifer Sieben</p>
 </div>
+
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script>
 
   </body>
 
