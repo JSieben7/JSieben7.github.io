@@ -1,7 +1,8 @@
 body {
   font-family: Baskerville, Book Antigua, serif;
   font-size: 16px;
-  background: url(https://cdn.pixabay.com/photo/2022/05/08/17/00/artwork-7182531_960_720.jpg);
+  /*background: url(https://as1.ftcdn.net/v2/jpg/04/88/22/48/1000_F_488224818_jWUPptjmHPBrJXiHSKim7f8R78eYQLhG.jpg);*/
+  background: url("/images/Stock/beachgrad.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -9,10 +10,10 @@ body {
 .header {
   padding: 10px;
   font-size: 20px;
-  color: white;
+  color: black;
   text-align: center;
   /* background: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"); */
-  background: url("/images/images/neowise_close.jpg");
+  /*background: url("/images/images/neowise_close.jpg");*/
 
   /* fallback */
   background-color: #F3F2ED60;
@@ -21,7 +22,7 @@ body {
 .header h1 {
   font-size: 50px;
   font-family: Palatino Linotype, serif;
-  color: white;
+  color: Black;
 }
 
 .header li {
@@ -70,12 +71,12 @@ body {
 /* Interactive timeline */
 /* Remove default bullets */
 ul,
-#Timeline {
+#Timeline, #OnlineCollection {
   list-style-type: none;
 }
 
 /* Remove margins and padding from the parent ul */
-#Timeline {
+#Timeline, #OnlineCollection {
   margin: 0;
   padding: 0;
 }
