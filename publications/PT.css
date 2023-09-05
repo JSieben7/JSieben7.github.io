@@ -71,12 +71,12 @@ body {
 /* Interactive timeline */
 /* Remove default bullets */
 ul,
-#Timeline, #OnlineCollection {
+#Timeline, #OnlineCollection, #MagazineCollection {
   list-style-type: none;
 }
 
 /* Remove margins and padding from the parent ul */
-#Timeline, #OnlineCollection {
+#Timeline, #OnlineCollection, #MagazineCollection {
   margin: 0;
   padding: 0;
 }
