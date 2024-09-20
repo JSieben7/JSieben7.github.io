@@ -10,7 +10,8 @@ html {
 .bgimg-1,
 .bgimg-2,
 .bgimg-3,
-.bgimg-4 {
+.bgimg-4,
+.bgimg-5 {
   position: relative;
   opacity: 1;
   /* 0.65 */
@@ -41,11 +42,17 @@ html {
   min-height: 400px;
 }
 
+.bgimg-5 {
+  background-image: url(../images/images/Trails_Sept24.png);
+  min-height: 400px;
+}
+
 /* images 
 background-image: url(../images/images/neowise_close.jpg);
 background-image: url(../images/images/Milky_Way_picture.jpg);
 background-image: url(../images/images/India/Moon_India.jpg);
 background-image: url(../images/images/Hawaii/DSC01788.jpg);
+background-image: url(../images/images/Trails_Sept24.png);
 */
 
 a:link,
@@ -84,21 +91,13 @@ a:active {
 #navbar a {
   float: left;
   display: block;
-  color: #a23758;
+  color: blue;
   text-align: center;
   padding: 14px;
   text-decoration: none;
 }
 
 
-#navbar a:hover {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
 
 /* box sections */
 .caption {
@@ -151,7 +150,8 @@ h4 {
   .bgimg-1,
   .bgimg-2,
   .bgimg-3,
-  .bgimg-4 {
+  .bgimg-4,
+  .bgimg-5 {
     background-attachment: scroll;
   }
 }
