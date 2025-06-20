@@ -7,6 +7,7 @@ body {
   font-family: Baskerville, Book Antigua, serif;
   font-size: 16px;
   background: url("/images/images/trails1.jpg");
+  /*background: url(https://jsieben7.github.io/images/images/trails1.jpg);*/
   background-size: cover;
 }
 
@@ -18,23 +19,34 @@ body {
   font-size: 20px;
   color: #000000;
   text-align: center;
-  background-color: #ff8c63;
-  filter: alpha(opacity=60);
   
   /* fallback */
-  background-color: #F3F2ED60;
+  /*background-color: #F3F2ED60;*/
+  background-color: transparent;
+  filter: alpha(opacity=60);
+  
 }
 
 .header h1 {
   font-size: 50px;
   font-family: Palatino Linotype, serif;
-  color: #000000;
+  color: #ffffff;
+}
+
+.header p{
+  color: #b57dae;
 }
 
 .header li {
   font-size: 15px;
   display: inline;
   padding: 0px 10px 0px 10px;
+  color: #6d62ee;
+}
+
+.header a:link,
+.header a:visited {
+  color: #2966b6;
 }
 
 a:link,
@@ -63,7 +75,7 @@ a:active {
   display: block;
   margin: 0px 5px 10px 50px;
   float: right;
-  border: 3px solid #802b52;
+  border: 3px solid #ad0f98;
   border-radius: 20px;
   opacity: 1;
 }
@@ -84,9 +96,14 @@ a:active {
   width: 80%;
   margin-left: 10%;
   text-align: center;
-  background: #F3F2ED60;
+  /*background: #F3F2ED60;*/
+  background: transparent;
   margin-top: 20px;
   color: #1d0f39;
+}
+
+.footer p {
+  color: #acaab0;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
